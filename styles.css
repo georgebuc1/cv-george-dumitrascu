@@ -96,3 +96,36 @@ nav ul li a:hover {
 #main-footer p {
     margin: 0;
 }
+
+/* Stiluri pentru ecrane mai mici (tablete și telefoane) */
+@media (max-width: 768px) {
+    /* Ajustarea dimensiunii textului */
+    #main-header h1 {
+        font-size: 36px;
+    }
+
+    #main-header p {
+        font-size: 18px;
+    }
+
+    /* Spațiere mai mică la buton */
+    #main-header .btn {
+        padding: 8px 16px;
+    }
+
+    /* Navigația pe ecrane mici */
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Secțiuni */
+    .section h2 {
+        font-size: 30px;
+    }
+
+   
