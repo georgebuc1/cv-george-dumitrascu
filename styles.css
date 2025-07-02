@@ -64,10 +64,10 @@ section {
 
 /* Navigație */
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
+
 
 nav ul li {
     display: inline;
