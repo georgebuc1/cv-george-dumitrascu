@@ -56,6 +56,12 @@ body {
     background-color: #0e75d7;
 }
 
+section {
+  margin-bottom: 60px;
+  padding: 20px 0;
+}
+
+
 /* Navigație */
 nav ul {
     list-style: none;
