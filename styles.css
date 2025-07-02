@@ -75,9 +75,15 @@ nav {
 }
 
 nav ul {
-  margin-top: 20px;
-  margin-bottom: 60px;
+  display: flex;
+  justify-content: center; /* centrează meniul */
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  margin: 0;
+  padding: 15px 0; /* spațiere pe verticală */
 }
+
 
 
 nav ul li {
