@@ -7,9 +7,9 @@
 }
 
 body {
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+  background-color: #f4f4f4; /* Gri foarte deschis */
+  color: #222222; /* Text aproape negru pentru contrast bun */
+  line-height: 1.6;
 }
 
 /* Container */
