@@ -178,3 +178,30 @@ nav ul li a:hover {
 .about-image img:hover {
     transform: scale(1.05);
 }
+
+
+/* ===== Responsive Design: Mobile first ===== */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .intro h1 {
+    font-size: 36px;
+  }
+
+  .intro p {
+    font-size: 18px;
+  }
+
+  .section {
+    padding: 60px 10px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
