@@ -63,6 +63,16 @@ section {
 
 
 /* Navigație */
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #dfdfdf;
+  z-index: 1000;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
 nav ul {
   margin-top: 20px;
   margin-bottom: 60px;
