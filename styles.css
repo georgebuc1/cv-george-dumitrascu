@@ -111,6 +111,11 @@ nav ul li a:hover {
     box-shadow: 0 2px 20px rgba(0, 0, 0, 0.05);
 }
 
+#about {
+  background-color: #999999;
+}
+
+
 .section h2 {
     font-size: 42px;
     font-weight: 700;
