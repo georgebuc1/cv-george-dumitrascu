@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" id="top">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>George Dumitrașcu</title>
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Work+Sans&display=swap" rel="stylesheet" />
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-container container">
+      <a href="#top" class="logo">
+        <img src="images/LOGO.png" alt="Logo" class="logo-img" />
+      </a>
+      <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header id="main-header" class="section">
+    <div class="overlay"></div>
+    <div class="container">
+      <h1 class="reveal">George Dumitrașcu</h1>
+      <p class="reveal">Medical Receptionist & Junior Web Developer</p>
+      <a href="#about" class="btn reveal">Discover My Work</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h1 class="reveal">About Me</h1>
+      <p class="reveal">I am passionate about transitioning to web development, blending human care with digital creation.</p>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h1 class="reveal">Experience</h1>
+      <ul class="reveal">
+        <li>Medical Receptionist – Natural Aesthetics</li>
+        <li>Head Cashier – Live Casinos (13 years)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h1 class="reveal">My Projects</h1>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <h3>Responsive Landing Page</h3>
+          <p>Built with HTML/CSS using Flexbox & Media Queries.</p>
+          <a href="https://github.com/georgebuc1/landing-page-demo" class="btn">View on GitHub</a>
+        </div>
+        <div class="project-card reveal">
+          <h3>Form Testing with Cypress</h3>
+          <p>QA-focused automation project using Cypress.</p>
+          <a href="https://github.com/georgebuc1/cypress-form-test" class="btn">View on GitHub</a>
+        </div>
+        <div class="project-card reveal">
+          <h3>CV Web Page</h3>
+          <p>This portfolio site, built from scratch and hosted online.</p>
+          <a href="https://github.com/georgebuc1/cv-george-dumitrascu" class="btn">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact + Map -->
+  <section id="contact" class="section">
+    <div id="map"></div>
+    <div class="container">
+      <h1 class="reveal">Contact</h1>
+      <p class="reveal">Email: georgebuc1@gmail.com</p>
+      <p class="reveal">Phone: 0784 528 545</p>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <a href="#top" class="back-to-top" aria-label="Back to top">
+    <svg class="back-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="none" stroke="white" stroke-width="2">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </a>
+
+  <!-- Leaflet Script -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+
+
+<!-- Social Media footer -->
+
+<footer id="main-footer">
+  <div class="container">
+    <p>Made with <span class="heart">❤️</span> by George <span class="year">2025</span></p>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/georgebuc1" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://github.com/georgebuc1" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.facebook.com/georgebuc1" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>
